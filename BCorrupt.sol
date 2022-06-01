@@ -72,7 +72,7 @@ contract Bcorrupt {
         return infos[_bribeTakerName];
     }
 
-    // @Function - To get all registeded complaints
+    // @Function - To get all registerded complaints
     function totalRegisteredComplaint() public view returns(uint){
         return numberOfComplaintRegistered;
     }
